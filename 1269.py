@@ -8,6 +8,7 @@ N, M = map(int, input().split(' '))
 # A = list(map(int, input().split(' ')))
 # B = list(map(int, input().split(' ')))
 # list 접근은 복잡도 높아짐 -> set 사용
+
 A = set(map(int, input().split(' ')))
 B = set(map(int, input().split(' ')))
 result = len(A-B) + len(B-A)
